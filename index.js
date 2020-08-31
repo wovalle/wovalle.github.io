@@ -5,7 +5,7 @@ const data = {
     instagram: 'https://instagram.com/wovalle',
     ig: 'https://instagram.com/wovalle',
     linkedin: 'https://www.linkedin.com/in/willyovalle/',
-    telegram: 'https://https://t.me/wovalle',
+    telegram: 'https://t.me/wovalle',
   },
 };
 
