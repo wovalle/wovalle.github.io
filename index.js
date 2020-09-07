@@ -1,18 +1,22 @@
 const data = {
   redirects: {
-    twitter: 'https://twitter.com/wovalle',
-    tw: 'https://twitter.com/wovalle',
-    instagram: 'https://instagram.com/wovalle',
-    ig: 'https://instagram.com/wovalle',
-    linkedin: 'https://www.linkedin.com/in/willyovalle/',
-    telegram: 'https://t.me/wovalle',
-    github: 'https://github.com/wovalle',
+    twitter: "https://twitter.com/wovalle",
+    instagram: "https://instagram.com/wovalle",
+    linkedin: "https://www.linkedin.com/in/willyovalle/",
+    telegram: "https://t.me/wovalle",
+    github: "https://github.com/wovalle",
+  },
+  aliases: {
+    twitter: ["tw"],
+    instagram: ["ig"],
+    telegram: ["tg"],
+    github: ["gh"],
   },
 };
 
 const setLoadedClass = () => {
-  const body = document.querySelector('body');
-  body.classList.add('loaded');
+  const body = document.querySelector("body");
+  body.classList.add("loaded");
   return true;
 };
 
@@ -21,7 +25,7 @@ const redirect = () => {
 
   return Object.keys(data.redirects).some((key) => {
     if (key === path) {
-      window.location.href = data.redirects[key];
+      document.location.replace(data.redirects[key]);
       return true;
     }
   });
