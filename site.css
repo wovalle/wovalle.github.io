@@ -88,3 +88,7 @@ a.link:hover:after {
   color: var(--other);
   transition: all 0.2s;
 }
+
+.not-found .title {
+  font-size: 2em;
+}
