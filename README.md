@@ -1,3 +1,3 @@
 # willy.im
 
-Serve assets: `npx serve -s .`
+Serve assets: `jekyll serve --livereload .`

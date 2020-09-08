@@ -1,1 +1,69 @@
-theme: jekyll-theme-minimal
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Willy Ovalle
+tagline: Willy's site
+email: willyovalle16@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Willy Ovalle's website
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://willy.im" # the base hostname & protocol for your site, e.g. http://example.com
+twitter:
+  username: wovalle
+  card: Willy Ovalle's
+
+# facebook:
+  # app_id: 1234
+  # publisher: 1234
+  # admins: 1234
+
+logo: /assets/android-chrome-512x512.png
+social:
+  name: Willy Ovalle
+  links:
+    - https://twitter.com/wovalle
+    - https://www.facebook.com/willyovalle
+    - https://www.linkedin.com/in/willyovalle
+    - https://github.com/wovalle
+
+lang: en_US
+
+author: wovalle
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+sass:
+    sass_dir: _scss
+
+exclude:
+  - node_modules/
+  - yarn.lock
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
