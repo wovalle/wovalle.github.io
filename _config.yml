@@ -42,6 +42,7 @@ social:
     - https://www.facebook.com/willyovalle
     - https://www.linkedin.com/in/willyovalle
     - https://github.com/wovalle
+    - https://instagram.com/wovalle
 
 lang: en_US
 
@@ -50,6 +51,7 @@ author: wovalle
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-gzip
 
 sass:
     sass_dir: _scss
